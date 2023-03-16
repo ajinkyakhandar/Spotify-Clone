@@ -41,4 +41,4 @@ A Spotify clone app was developed using the below concepts and functionality.
 7 Responsive web application using media queries and user agent device detection
 
 The app was created using Spotify Rest APIs, and it has a mobile and desktop view and a few components.
-are disabled or enabled based on the user agent. 
+are disabled or enabled based on the user agent
