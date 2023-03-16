@@ -1,0 +1,95 @@
+.side-menu{
+    width: 20vw;
+    height: 86vh;
+    background-color: black;
+}
+
+.side-menu-logo{
+    height: 36px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+hr{
+    margin: 6px 22px;
+    background-color: #282828;
+    border: none;
+    height: 1px;
+}
+
+.text-style{
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.playlists{
+    display: flex;
+    margin: 21px 22px;
+    height: 18vh;
+    flex-direction: column;
+}
+
+.playlist{
+    color: #b3b3b3;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.playlist:hover{
+    color: white;
+}
+.playlist:focus{
+    color: white;
+}
+
+
+/* media queries */
+
+@media (max-width: 480px) {
+    .side-menu{
+        background-color: red;
+    }
+    .SideMenuMobile{
+        height: 8vh;
+        background-color: #141414;
+    }
+    .SideMenuMobile-icon{
+        font-size: 28px !important;
+        fill: #b3b3b3 !important;
+    }
+    .SideMenuMobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 45px;
+    }
+  }
+
+@media only screen and (min-width: 1400px){
+    
+}
+/* @media only screen and (max-width: 992px){
+    .playlists{
+        height: 24vh;
+    }
+
+    .text-style{
+        color: #b3b3b3;
+        font-size: 12px;
+    }
+
+    .playlist{
+        font-size: 12px;
+    }
+
+    .side-menu-logo{
+        height: 32px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+} */
+
+

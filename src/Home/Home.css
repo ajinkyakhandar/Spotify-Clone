@@ -1,0 +1,40 @@
+@media (max-width: 480px) {
+    .home {
+        width: 100vw;
+      }
+      
+      .home-playlists {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .home-playlist-cardImage {
+        height: 40px;
+        border-radius: 6px 0px 0px 6px;
+      }
+      
+      .home-playlist-card {
+        display: flex;
+        height: 6vh;
+        color: white;
+        background-color: #282828;
+        border-radius: 6px;
+        width: 44vw;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+      
+      .home-playlists {
+        margin: 18px;
+      }
+      
+      .home-playlist-items {
+        display: flex;
+        align-items: center;
+      }
+      .home-playlist-name{
+          padding-left: 12px;
+          font-size: 14px;
+      }
+      
+  }

@@ -1,0 +1,8 @@
+{
+    "client_id": "",
+    "client_secret": "",
+    "redirect_uri": "",
+    "scopes" : "user-read-private user-read-email",
+    "redirectUri": "https://localhost:8080/"
+
+}

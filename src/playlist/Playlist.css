@@ -1,0 +1,258 @@
+.playlist {
+  overflow-x: scroll;
+  height: 76vh;
+}
+
+.playerlist-header {
+  display: flex;
+  padding: 20px;
+}
+
+.playlist-header-image {
+  height: 14rem;
+}
+
+.playlist-header-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  justify-content: end;
+}
+
+.playlist-header-text {
+  color: white;
+  font-size: 14px;
+}
+
+.playlist-header-playlistText {
+  color: white;
+  font-size: 14px;
+}
+
+.playlist-header-playlistName {
+  color: white;
+  font-size: 84px;
+  font-weight: 900;
+}
+
+/* Playlist details */
+
+.playlist-details-title {
+  display: flex;
+  align-items: center;
+}
+
+.playlist-details-table {
+  color: #b3b3b3;
+  width: 100%;
+}
+
+.playlist-details-TitleImage {
+  height: 40px;
+  padding-right: 20px;
+}
+
+.playlist-details-TitleDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist-details {
+  background-color: #202a37;
+  padding: 32px 45px 0 45px;
+}
+
+.playlist-details-table-textsm {
+  font-size: 12px;
+}
+.playlist-details-table-textbase {
+  font-size: 14px;
+  color: white;
+}
+
+.playlist-details-table-border {
+  border-bottom: 1px solid #414141;
+}
+
+.playlist-details-table-td {
+  padding-bottom: 15px;
+  padding-right: 5px;
+}
+
+.playlist-details-table-tr {
+  padding: 6px 0;
+}
+
+.playlist-details-table-index {
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+tr {
+}
+
+tbody tr:hover {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  padding-left: 10px;
+  border-radius: 10vh;
+}
+
+tbody tr:focus {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  padding-left: 10px;
+}
+
+.playlist-details-item {
+  cursor: pointer;
+}
+
+.playlistTablet {
+}
+
+.playlistTablet-layout {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.playlistTablet-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+}
+
+.playlistTablet-image {
+  height: 10vh;
+}
+
+.playlistTablet-artists {
+}
+
+.playlistTablet-songname {
+  padding-bottom: 4px;
+}
+
+.playlistTablet-layout:hover {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  padding: 12px;
+  border-radius: 10px;
+  margin-left: -14px;
+}
+
+.playlistTablet-layout:target {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  padding: 12px;
+  margin-left: -14px;
+  border-radius: 10px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 480px) {
+  .playlistTablet-songname-layout {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70vw;
+  }
+
+  .playlist {
+    width: 100vw;
+  }
+
+  .playerlist-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .playlist-header-image {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .playlist-header-playlistName {
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+  }
+
+  .playlist-header-details {
+    margin-left: -36vw;
+  }
+
+  .playlist-details {
+    padding: 16px;
+  }
+
+  .playlistTablet-image {
+    height: 7vh;
+  }
+
+  .playlistTablet-layout:active {
+    margin-left: -6px;
+    width: 95vw;
+  }
+}
+/* 
+@media only screen and (max-width: 992px) {
+  .playlist-header-image {
+    height: 10rem;
+  }
+
+  .playlist-header-playlistName {
+    font-size: 50px;
+  }
+
+  .playlist-header-text {
+    font-size: 12px;
+  }
+
+  .playlist-header-playlistText {
+    color: white;
+    font-size: 12px;
+  }
+
+  .playerlist-header {
+    height: 42vh;
+  }
+
+  .playlist-details {
+    padding: 25px 25px 0 25px;
+  }
+
+  .playlist-details-TitleImage {
+    height: 38px;
+  }
+
+  .playlist-details-table-textbase {
+    font-size: 12px;
+  }
+
+  .playlist-details-table-textsm {
+    font-size: 10px;
+  }
+
+  .audioplayer-details {
+    width: 34vw;
+  }
+
+  .audioplayer-details-artist {
+    font-size: 10px;
+  }
+  .audioplayer-details-songName {
+    font-size: 12px;
+    text-overflow: ellipsis;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .userprofile-playlist-cardlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4vh;
+  }
+
+  .userprofile-playlistcard {
+    width: 28vh;
+  }
+} */

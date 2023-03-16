@@ -1,0 +1,20 @@
+.appLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+.appLayout-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.applayout-content {
+  background-color: #141414;
+  height: 86vh;
+}
+
+@media (max-width: 480px) {
+  .applayout-content {
+    height: 80vh;
+  }
+}

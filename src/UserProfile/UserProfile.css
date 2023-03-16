@@ -1,0 +1,154 @@
+.userprofile {
+  overflow-x: scroll;
+  height: 76vh;
+}
+.userprofile-header {
+  height: 42vh;
+  display: flex;
+  padding: 20px;
+  background-color: #1f2121;
+  align-items: end;
+}
+
+.userprofile-header-image {
+  height: 14rem;
+  border-radius: 50%;
+  width: 14rem;
+  object-fit: cover;
+}
+
+.userprofile-header-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+}
+
+.userprofile-header-text {
+  color: white;
+  font-size: 14px;
+}
+.userproofile-details {
+  margin-top: 12px;
+}
+
+.userprofile-header-playlistText {
+  color: white;
+  font-size: 14px;
+}
+
+.userprofile-header-playlistName {
+  color: white;
+  font-size: 68px;
+  font-weight: 900;
+}
+
+/* user profile details */
+
+.userprofile-details {
+  background-color: #121212;
+  height: 100vh;
+  padding: 32px 45px 0 45px;
+}
+
+.userprofile-playlist-name {
+  color: white;
+}
+
+.userprofile-playlistcard {
+  width: 16vw;
+  margin-right: 30px;
+  background-color: #181818;
+  height: 44vh;
+  display: flex;
+  border-radius: 10px;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.userprofile-playlistcard:hover {
+  background-color: #282828;
+}
+
+.userprofile-playlist-cardlist {
+  /* border: 1px solid red; */
+  display: flex;
+  margin-top: 4vh;
+}
+
+.userprofile-playlistcard-image {
+  margin: 10px;
+  padding-top: 6px;
+  width: 13vw;
+}
+
+.userprofile-playlistcard-name {
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  width: 13vw;
+  padding-top: 6px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.userprofile-playlistcard-hoverImage {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 30%);
+}
+
+.userprofile-playlistcard-imageLayout {
+  position: relative;
+}
+.userprofile-playlistcard:hover .userprofile-playlistcard-hoverImage {
+  opacity: 1;
+}
+
+/* @media only screen and (min-width: 992px) {
+  .userprofile-header-image {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .userprofile-header-playlistName {
+    font-size: 36px;
+  }
+
+  .userprofile-header-playlistText {
+    font-size: 12px;
+  }
+
+  .userprofile-header-text {
+    font-size: 12px;
+  }
+
+  .userprofile-playlistcard-name {
+    width: 13vw;
+    font-size: 13px;
+  }
+
+  .userprofile-playlistcard {
+    height: 42vh;
+  }
+
+  .userprofile-playlist-name {
+    font-size: 14px;
+  }
+} */
+
+/* @media only screen and (min-width: 600px) {
+  .userprofile-playlistcard {
+    width: 20vw;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .userprofile-header-playlistName {
+      font-size: 28px;
+    }
+  } */

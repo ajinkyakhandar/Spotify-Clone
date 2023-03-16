@@ -1,0 +1,10 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.MuiSvgIcon-root {
+    fill: white !important;
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
