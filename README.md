@@ -42,3 +42,5 @@ A Spotify clone app was developed using the below concepts and functionality.
 
 The app was created using Spotify Rest APIs, and it has a mobile and desktop view and a few components.
 are disabled or enabled based on the user agent
+
+[![Watch the video](https://drive.google.com/file/d/1CuhveKQTBKH3j0hHVtB-vFmqIlCYnXer/view?usp=sharing)](https://drive.google.com/file/d/1XFynXXCwJiCr2EWnoPc24PdTaIVqVBSj/view?usp=sharing)
